@@ -23,7 +23,7 @@ func Produce() {
 	topic := "Topic_Example"
 	msg := Message{
 		Name:      "Message Name Example",
-		Content:   "Message Content Example",
+		Content:   "hello test",
 		Timestamp: time.Now().String(),
 	}
 	payload, err := json.Marshal(msg)
